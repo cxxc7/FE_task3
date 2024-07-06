@@ -22,8 +22,8 @@ const MovieDetails = ({ movies, vote_average, updateVoteAverage }) => {
       <div className="no-image">No Image Available</div>
     )}
       <p>Vote Average: {vote_average[id].toFixed(1)}</p>
-      <button onClick={() => handleVoteChange(1)}>Increase Vote</button>
-      <button onClick={() => handleVoteChange(-1)}>Decrease Vote</button>
+      <button onClick={() => handleVoteChange(0.1)}>Increase Vote</button>
+      <button onClick={() => handleVoteChange(-0.1)}>Decrease Vote</button>
     </div>
   );
 };
