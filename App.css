@@ -1,0 +1,46 @@
+/*src/App.css */
+.App {
+  color: black;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.error-message {
+  color: red;
+}
+
+.movie-list {
+  background-color: black;
+  color: rgb(243, 8, 47);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  background-color: silver;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.movie-card img {
+  background-color: aquamarine;
+  color: brown;
+  width: 100%;
+  height: auto;
+}
+
+.movie-details {
+  background-color: black;
+  color: gold;
+  text-align: center;
+}
+
+.movie-details img {
+  background-color: black;
+  color: brown;
+  width: 200px;
+  height: auto;
+}
